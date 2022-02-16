@@ -1,0 +1,686 @@
+html,
+body {
+    width: 100%;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.right i {
+    padding-left: 20px;
+    color: rgb(239, 240, 233);
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+
+ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* Navbar */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+
+/* adding hover effects on links  */
+
+#navbar ul li a:hover {
+    color: rgb(243, 210, 62);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#navbar img:hover {
+    width: 70px;
+}
+
+.right i {
+    color: white;
+    text-align: center;
+}
+
+.right i:hover {
+    color: rgb(243, 210, 62);
+}
+
+
+/* Copyright */
+
+a {
+    text-decoration: none;
+}
+
+.copyright {
+    text-decoration: none;
+    background-color: rgb(21, 22, 24);
+    color: white;
+}
+
+.projtitle,
+.bottom-heading {
+    font-family: "Titillium Web", sans-serif;
+    color: rgb(13, 90, 161);
+    text-align: center;
+}
+
+.footerhr {
+    border-style: none;
+    size: 1px !important;
+    width: 150px;
+    color: white !important;
+    height: 1px;
+}
+
+
+/* for course playlist */
+
+.activeVideo {
+    background-color: rgb(231, 222, 222);
+}
+
+.activeVideo:hover {
+    color: black;
+}
+
+ul li a {
+    color: black;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+
+/* 1. typewriter effect for tag line */
+
+
+/* Google Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+.line-1 {
+    position: relative;
+    top: 50%;
+    width: 34em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 170%;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    font-family: "Anonymous Pro", monospace;
+}
+
+
+/* Animation */
+
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 34em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+/* footer
+
+
+
+*/
+
+.footer {
+    background-color: #001018;
+    color: #f9fafc;
+}
+
+.footer h3 {
+    font-family: "Titillium Web", sans-serif;
+    ;
+}
+
+.hr-footer-head {
+    height: 0.1px;
+    float: left;
+    width: 20%;
+    background-color: aqua !important;
+}
+
+.footer-item a {
+    padding-right: 2.5rem;
+    padding-bottom: 0.5rem;
+    color: #a1a3a5;
+}
+
+.footer-item a:hover {
+    color: rgb(243, 210, 62);
+}
+
+.footer-item i {
+    font-size: larger;
+}
+
+.footer-item-2 {
+    padding-bottom: 1rem;
+}
+
+.footer-item-2 i {
+    font-size: 0.8rem;
+}
+
+.footer-contact {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.footer-contact i,
+svg {
+    padding-top: 8px;
+    font-size: 3rem;
+    color: #a1a3a5;
+}
+
+.footer-contact-item {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.footer-contact-item-content {
+    display: inline;
+}
+
+.footer-contact-item-table {
+    display: inline;
+}
+
+.footer-contact-item-table i {
+    font-size: large;
+    padding-right: 1rem;
+    color: #a1a3a5;
+}
+
+.down-social i:hover {
+    color: rgb(10, 66, 131);
+}
+
+.footer-item-link {
+    display: inline;
+    color: #a1a3a5;
+}
+
+
+/* footer projects  */
+
+.footer-project {
+    float: left;
+    font-size: 0;
+}
+
+.footer-project a {
+    padding: 0 8px 8px 0;
+    display: block;
+    width: 33.33%;
+    float: left;
+}
+
+.footer-project a img {
+    width: 100%;
+}
+
+
+/* Copyright section */
+
+.copyright a {
+    color: rgb(158, 160, 159);
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    color: rgb(23, 118, 228);
+}
+
+.footer-item-link:hover {
+    text-decoration: none;
+}
+
+
+/* subsscibe button */
+
+.subscribeBtn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1% 2%;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.subscribeBtnAbout {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1% 2%;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* cards layout */
+
+.cardLayout:hover {
+    transform: scale(1.1);
+    /* cursor: pointer; */
+}
+
+
+/* newsletter button */
+
+.btn-newsletter {
+    background-color: #001018;
+    color: #f9fafc;
+}
+
+.btn-newsletter:hover {
+    background-color: #001018;
+    color: rgb(243, 210, 62)
+}
+
+
+/* recommendation */
+
+.rbtn {
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(241, 241, 241);
+    padding: 2%;
+    width: 50%;
+    font-weight: bold;
+}
+
+.rbtn:hover {
+    background: rgb(39, 39, 56);
+    color: #f9fafc;
+}
+
+
+/* Youtube video player  */
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: block;
+    margin: auto;
+}
+
+.vlayout {
+    margin: auto;
+    width: 55%;
+    height: 55%;
+    margin-top: 2%;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.25);
+    padding: 1%;
+    border-radius: 1%;
+}
+
+.tag {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.vplaylist {
+    /* border: 2px solid red; */
+    margin-top: 2%;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.25);
+    padding: 1%;
+    border-radius: 1%;
+    margin-left: 2%;
+}
+
+.list li {
+    list-style: none;
+}
+
+.list {
+    margin-left: 5%;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height: 515px;
+    overflow-x: hidden;
+    /* scrollbar-width: thin; */
+    scrollbar-width: none;
+}
+
+.end {
+    margin-left: 5%;
+}
+
+.tagPlaylist {
+    margin-top: 2%;
+    font-size: 1rem;
+}
+
+.test {
+    margin-top: 5%;
+}
+
+.test p {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.taglist {
+    text-align: center;
+}
+
+.list::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: rgb(255, 251, 251);
+}
+
+.list::-webkit-scrollbar-thumb {
+    background: rgb(131, 129, 129);
+}
+
+.sourceCode {
+    margin: 20px auto 20px auto;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+.downloadBtn {
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+
+.dbtn {
+    padding: 1%;
+}
+
+.dbtn:hover {
+    background-color: rgb(39, 39, 56);
+    color: white;
+}
+
+
+/* Handle */
+
+
+/* 2. adding a border to the card div and accordion */
+
+.card-body,
+.card-m-4 {
+    border: 1px solid rgba(243, 239, 239, 0.75);
+}
+
+.accordion-item {
+    border: 1px solid black;
+}
+
+
+/* adding a line before the link in accordion  */
+
+.line {
+    margin-top: 4px;
+    border-top: 1px dotted #333131;
+    text-align: center;
+    font-weight: bold;
+}
+
+.feedback {
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.25);
+    margin: 10px auto 20px auto;
+    padding: 12px;
+}
+
+
+/* for course and project section on homepage */
+
+.coursesec {
+    text-align: right;
+    font-family: "Titillium Web", sans-serif;
+    text-shadow: 0 0 4px rgb(243, 210, 62);
+}
+
+.btnCourseSection {
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    background-color: rgb(21, 22, 24);
+}
+
+.btnCourseSection:hover {
+    color: rgb(243, 210, 62);
+}
+
+
+/* changing hr style  */
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 150px;
+    border-color: #1d1b1b !important;
+    border-width: 5px;
+    background-color: white !important;
+    size: 3px;
+    height: 1px;
+    margin: auto;
+}
+
+
+/* .sub {
+    text-align: center;
+    } */
+
+
+/* newsletter subscribe button  */
+
+
+/* .btn:hover {
+    background-color: aquamarine;
+    box-shadow: 0px 15px 20px rgba(23, 70, 50, 0.4);
+    color: black;
+    transform: translateY(-7px);
+    border: 1px solid rgb(1, 32, 22);
+} */
+
+
+/* Media queries */
+
+@media (max-width: 300px) {
+    .line-1 {
+        font-size: 0.5rem;
+    }
+    .end {
+        margin-left: 0;
+    }
+    .vplaylist {
+        margin-left: 0;
+    }
+    .coursep {
+        text-align: center;
+    }
+    .coursesec {
+        text-align: center;
+    }
+    .nav-link {
+        padding: 0% !important;
+    }
+    .sourceCode {
+        display: none;
+    }
+    .list {
+        margin-left: 0;
+    }
+    .quicklink {
+        text-align: center;
+    }
+    .vlayout {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .line-1 {
+        font-size: 0.7rem;
+    }
+    .display-4 {
+        font-size: 3rem;
+    }
+    .bottom-heading {
+        padding-left: 1rem;
+    }
+    .end {
+        margin-left: 0;
+    }
+    .vplaylist {
+        margin-left: 0;
+    }
+    .coursesec {
+        text-align: center;
+    }
+    .coursep {
+        text-align: center;
+    }
+    .nav-link {
+        padding: 0% !important;
+    }
+    .sourceCode {
+        display: none;
+    }
+    .list {
+        margin-left: 0;
+    }
+    .quicklink {
+        text-align: center;
+    }
+    .vlayout {
+        width: 100%;
+        height: 100%;
+    }
+    .footernavlink {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    .footerfix {
+        margin-left: 1rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 750px) {
+    .line-1 {
+        font-size: 0.9rem;
+    }
+    .end {
+        margin-left: 0;
+    }
+    .vplaylist {
+        margin-left: 0;
+    }
+    .coursesec {
+        text-align: center;
+    }
+    .sourceCode {
+        display: none;
+    }
+    .list {
+        margin-left: 0;
+    }
+    .quicklink {
+        text-align: center;
+    }
+    .vlayout {
+        width: 100%;
+        height: 100%;
+    }
+    .footernavlink {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    .footerfix {
+        margin-left: 2px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+    .line-1 {
+        font-size: 100%;
+    }
+    .vplaylist {
+        position: relative;
+        top: 15%;
+    }
+    .vlayout {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .line-1 {
+        font-size: 150%;
+    }
+}
