@@ -1,6 +1,5 @@
 import React from 'react';
 import "./about.css"
-import "../style.css"
 import Navbar2 from '../Navbar2';
 import AnimatedPage from '../AnimatedPage';
 const About = () => {

@@ -5,8 +5,7 @@ import AnimatedPage from './AnimatedPage';
 import Navbar2 from './Navbar2';
 import "./styleContact.css"
 
-const baseUrl="https://soabism-server.herokuapp.com/";
-                   
+const baseUrl="https://soabism-server.onrender.com/";
 
 const Results=()=>{
     return <>

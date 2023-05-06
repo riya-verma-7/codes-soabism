@@ -1,5 +1,5 @@
 import React from 'react';
-import "../style.css";
+// import "../style.css";
 const Feedback = () => {
   return <>
        <div className="row justify-content-center  pb-4 pt-4 ">

@@ -16,8 +16,12 @@ const Results=()=>{
     </>
 }
 
-const baseUrl="https://soabism-server.herokuapp.com/";
+// const baseUrl="https://soabism-server.herokuapp.com/";
 // const baseUrl="http://localhost:5000/";
+const baseUrl="https://soabism-server.onrender.com/";
+
+
+
 const Newsletter = () => {
 
     

@@ -80,15 +80,15 @@ function App() {
             <RecommendV1  topic='Stone Paper Scissors' embedId='O_CS0C1rs9s' code='75' code2='75b' codeurl="https://drive.google.com/file/d/16wS3_MX4z5gdJzwUfa-Z7LeIoSZ2HYor/view?usp=sharing" codeurl2="https://drive.google.com/file/d/1Q0QDlHrkbH5YbIeQmk5aWwKJnOK-m7lE/view?usp=sharing"
           />)}></Route>
         
-         <Route exact path="/projects" exact component={Projects}/>
-         <Route exact path="/projects/:id" exact component={ProjectData}/>
+         <Route exact path="/projects"  component={Projects}/>
+         <Route exact path="/projects/:id"  component={ProjectData}/>
         
-         <Route exact path="/courses" exact component={Courses}/>
-         <Route exact path="/courses/c-:id" exact component={C}/>
-         <Route exact path="/courses/c++-:id" exact component={Cpp}/>
-         <Route exact path="/courses/graphics-:id" exact component={Graphics}/>
+         <Route exact path="/courses"  component={Courses}/>
+         <Route exact path="/courses/c-:id"  component={C}/>
+         <Route exact path="/courses/c++-:id"  component={Cpp}/>
+         <Route exact path="/courses/graphics-:id"  component={Graphics}/>
         
-         <Route exact path="/courses/comingsoon-:id" exact component={Comingsoon}/>
+         <Route exact path="/courses/comingsoon-:id"  component={Comingsoon}/>
 
          
 
