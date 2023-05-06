@@ -47,6 +47,7 @@ const Newsletter = () => {
             axios.post(baseUrl, user)
             .then((res) => {
                 console.log("Success")
+                console.log(user);
                 setShowResults(true)
             })
         } else {
